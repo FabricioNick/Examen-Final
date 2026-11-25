@@ -1,0 +1,15 @@
+﻿@import "tailwindcss";
+
+@layer base {
+  body {
+    background: #f8fafc;
+    color: #2755c0;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+  }
+  button:not(:disabled), a { cursor: pointer; }
+  button:disabled { cursor: not-allowed; }
+  label { display: block; font-weight: 600; }
+  p, h1, h2, dd { overflow-wrap: anywhere; }
+}
+
